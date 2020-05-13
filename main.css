@@ -1,0 +1,154 @@
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font: 300 20px/1.8;
+}
+
+.header {
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-image: url(imagenes/dummy-header.jpg);
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+  background-color: lightslategray;
+  font-family: "Stint Ultra Condensed", cursive;
+}
+.navbar a {
+  color: linen;
+  padding: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-family: "Stint Ultra Condensed", cursive;
+}
+
+.content {
+  padding: 80px 0;
+}
+
+.who {
+  background-color: dimgrey;
+  color: ghostwhite;
+}
+.who p {
+  max-width: 1055px;
+  margin: 0 auto;
+}
+p {
+  margin-bottom: 40px;
+}
+.services {
+
+    background-color: #34495e;
+    color: ghostwhite;
+}
+.list-services {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.tarifas {
+background-image: url(imagenes/dummy-tarifas.jpg);
+background-size: cover;
+
+
+}
+.contain {
+max-width: 450px;
+margin: 0 auto;
+text-align: left;
+color: ghostwhite;
+}
+.tarifas {
+    text-align: left;
+}
+.btn { border: 2px solid #fff;
+    padding: 10px 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: blanchedalmond;
+    border-radius: 10px;
+
+
+
+}
+.localizacion {
+    color: #34495e;
+    padding-bottom: 0;
+
+
+
+}
+.localizacion map { max-width: 100% ;
+    width: 100%;
+
+
+}
+
+.list-services figure {
+    position: relative;
+width: 150px;
+height: 190px;
+
+
+}
+.list-services figure:after {
+    content: "";
+    position: absolute;
+top: 0;
+left: 0;
+border-radius: 50%;
+z-index: 0;
+background-color: #fff;
+
+
+
+}
+.list-services li {
+    padding: 0 30px;
+}
+.list-services figcaption {
+
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: -40px;
+}
+
+.list-services figure {
+
+    flex-flow: column;
+
+}
+.footer {
+    display: flex;
+    text-align: center;
+    color: blanchedalmond;
+    background-color: darkcyan;
+    font-size: 20px;
+    justify-content: center;
+
+
+
+}
+.twitter { display: flex;
+justify-content: right;
+text-align: right;
+
+
+}
